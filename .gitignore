@@ -38,3 +38,39 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# PlatformIO
+.pio
+.vscode
+.vscode/
+firmware/.pio/
+firmware/.vscode/
+
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.hex
+firmware/build/
+firmware/.pioenvs/
+firmware/.piolibdeps/
+
+# IDE and editor files
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+
+# Test results (keep summaries, ignore raw data)
+results/**/*.csv
+results/**/*.log
+results/**/raw_*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+env/
